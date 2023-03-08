@@ -4,8 +4,10 @@ Rust + GraphQL
 
 # 環境
 
-1. docker compose up -d
+1. make をインストール(既にインストール済みならスキップ)
+2. make build
+3. make up
 
 # Bash
 
-- docker compose exec app bash
+- make init
